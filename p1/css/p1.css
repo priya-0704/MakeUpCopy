@@ -1,0 +1,146 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+header li {
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+}
+header{
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+  padding:10px 10%;
+  background-color:#Ffd9c9 ;
+}
+.text{
+  padding-right:600px;
+  color: #581845;
+  font-size: 50px;
+  font-family: "sofia";
+  font-weight: bold;
+
+}
+.text1{
+  padding-right:400px;
+  color: #581845;
+  font-size: 50px;
+  font-family: "sofia";
+  font-weight: bold;
+}
+.text2{
+  padding-right:550px;
+  color: #581845;
+  font-size: 50px;
+  font-family: "sofia";
+  font-weight: bold;
+}
+.main{
+  list-style: none;
+  float: right;
+  margin-top: 20px;
+}
+.main li a{
+  transition: all 0.3s ease 0s;
+  line-height: 50px;
+  text-decoration: none;
+  color: #000;
+  padding-left:  100px;
+  padding: 5px 20px;
+  border: 1px solid #000;
+  transition:  0.3s ease;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px; 
+  border-bottom-left-radius: 5px;
+  font-family: serif;
+}
+.main li a:hover{
+  background-color: #fff;
+  color:#fff; 
+  background-color: rgba(0,0,0,0.5);
+}
+.body{
+    font-family: arial;
+}
+.but{
+  margin-left: 100px;
+}
+.but p{
+  float: left;
+  padding-top: 15px;
+  font-family: "sofia";
+  font-weight: bold;
+  font-size: 20px;
+}
+.but button{
+  padding: 10px 25px;
+  background-color: #fec994;
+  border:none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition: all 0.3s ease 0s;
+}
+.but button:hover{
+  background-color: rgba(0,0,0,0.5);
+}
+.product{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  
+  }
+.title{
+  color: #0C0204
+  padding: 3px;
+  text-align: center;
+  padding-top: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.des{
+  padding: 3px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.rating .fa{
+
+  color: #ffe75e
+
+}
+.des1{
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffdfe8;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+  font-weight: bold;
+}
+button:hover{
+  background-color: rgb(233, 130, 245);
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}

@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+  padding:0px 10%;
+  background-color:#Fed9c9;
+}
+header li {
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;	
+  display: inline-block;	
+  padding: 10px;
+
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+}
+ul li a{
+	line-height: 50px;
+	text-decoration: none;
+	color: #000;
+	padding-left:  100px;
+	padding: 5px 20px;
+	border: 1px solid #000;
+	transition:  0.3s ease;
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-family: serif;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color:#fff; 
+	background-color: rgba(0,0,0,0.5);
+}
+.text{
+  padding-top: 50px;
+  padding-right:425px;
+  color: #581845;
+  font-family: Brush Script MT;
+  font-weight: bold;
+  font-size: 30px;
+}
+.text p{
+	padding-top: 10px;
+	font-size: 30px;
+}
+html{
+	font-size: 10px;
+}
+body{
+	background: url(file:///C:/Users/abc/Desktop/website/About%20Us/1.jpeg);
+    padding-right: -50px;
+    background-size: 100% 110%;
+    font-family: Gabriola;
+
+}
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 3rem;
+	margin-top: 4rem;
+	text-align: center;
+}
+.container image{
+	border-image-source: 200;
+	height: 250px;
+	width: 250px;
+	border-top-left-radius: 500px;
+	border-bottom-left-radius:  500px;
+	border-top-right-radius:  500px;
+	border-bottom-right-radius:  500px;
+}
+h1{
+	color: #5C0045;
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: 25px;
+	margin-bottom: 1px;
+}
+h2{
+	color: #777;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+p{
+	font-size: 2rem;
+	color: #5C0045;
+	margin-bottom: 5rem;
+	line-height: 4rem;
+	font-weight: bold;
+}
+.btn{
+	display: inline-block;
+	padding: 1rem 4rem ;
+	background:#f6f6f6;
+	font-size: 17px;
+	text-decoration: none;
+	color: #5C0045;
+	border-radius: 10px;
+	transition: background 0.5s;
+	font-weight: bold;
+}
+.btn:hover {
+	background: #dadada;
+}
